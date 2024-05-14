@@ -39,11 +39,27 @@ p {
 }
 
 /*Nav-bar*/
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: end;
+.nav-bar
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+li {
+    float: right;
     padding: 1rem;
-    gap: 10px;
+    
+   
+    
 }
