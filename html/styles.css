@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*Top div*/
+.hero {
+    background-color: rgb(184, 184, 103);
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+
+/*Header*/
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.main-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 2.5rem;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+
+}
