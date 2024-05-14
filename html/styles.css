@@ -37,3 +37,12 @@ p {
     padding: 0px;
 
 }
+
+/*Nav-bar*/
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    padding: 1rem;
+}
