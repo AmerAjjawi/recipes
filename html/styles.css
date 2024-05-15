@@ -103,4 +103,13 @@ img {
 
   */
 
-  
+  /*This is the css for the image gallaery*/
+ .img-header{
+    text-align: center;
+ }
+  .full-img {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+  }
