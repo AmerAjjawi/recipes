@@ -109,7 +109,6 @@ img {
  }
   .full-img {
     display: grid;
-    grid-gap: 8px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 30%);
     justify-content: space-around;
   }
