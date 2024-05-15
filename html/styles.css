@@ -5,9 +5,9 @@
 
 /*Top div*/
 .hero {
-    background-color: rgb(184, 184, 103);
-    margin-top: 2rem;
-    padding: 1rem;
+    overflow: hidden;
+    background-color: #F4F6F5;
+    
 
 }
 
@@ -34,13 +34,16 @@
 
 p {
     margin: 0px;
-    padding: 0px;
+    padding-top: 0px;
+    padding-left: 1rem;
+
 
 }
 
 /*Nav-bar*/
 .nav-bar
 {
+   
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -48,6 +51,7 @@ p {
 }
 
 ul {
+    background-color: #dee0e4;
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
@@ -63,3 +67,40 @@ li {
    
     
 }
+
+
+/**Add the lasagna page **/
+
+/*
+.picture-grid {
+    display: grid;
+    place-items: center;
+}
+
+
+img {
+    bottom: 15%;
+    position: absolute;
+    animation-name: linear infinite;
+    -webkit-animation-name: run;
+    animation-duration: 40s;
+}
+@keyframes run {
+    3% {
+      left: 0;
+    }
+    50% { 
+        left: calc(50% - 50px); 
+       }
+      100% {
+        left: 0;     
+      }
+
+    3% {
+        right: 0;
+    }
+  }
+
+  */
+
+  
