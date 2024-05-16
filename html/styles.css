@@ -113,7 +113,14 @@ img {
     justify-content: space-around;
   }
 
-  .item img {
+   img {
     width: 100%;
     height: 100% !important;
     object-fit: cover;}
+
+
+    /*Button*/
+
+    .dark {
+        margin-top: 1rem;
+    }
