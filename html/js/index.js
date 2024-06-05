@@ -12,3 +12,9 @@ function displaySlide(index) {
     //display a specific image
     images[index].style.display = "block";
 }
+
+//set a function to move forward
+function moveForward() {
+    counter = (counter + 1) % images.length;
+    displaySlide(counter);
+}
