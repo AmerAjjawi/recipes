@@ -1,2 +1,2 @@
 //grab elements and create a variable for the images
-const 
+const images = [...document.querySelectorAll(".displayed-img")];
