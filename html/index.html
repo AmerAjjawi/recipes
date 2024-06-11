@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="/index.js"></script>
     <title>Recipes-recipe-guide-for-everyone</title>
 </head>
 
@@ -44,29 +45,31 @@
         <!--Add a carousel-->
         <h1 class="img-header">Image gallery example</h1>
 
-        <div class="wrapper">
-            <div class="slider">
-                <img class="displayed-img"
-                    src="https://assets.bonappetit.com/photos/622901c1eac42d2d741a3e19/1:1/w_320%2Cc_limit/BA0422peidmont09.jpg"
-                    alt="A picture of slice of pie with blueberry pie" />
-                <img class="displayed-img"
+        <div class="slider-wrapper">
+            <div class="slide-cover">
+                <img class="slider"
+                    src="https://assets.bonappetit.com/photos/622901c1eac42d2d741a3e19/1:1/w_320%2Cc_limit/BA0422peidmont09.jpg" />
+                <img class="slider"
                     src="https://assets.bonappetit.com/photos/63dadf5316330e47d621f630/16:9/w_320%2Cc_limit/0201023-spinach-ricotta-lasagna-lede.jpg"
                     alt="A picture of lasagna with ricotta cut into a single square serving on a plate with a fork" />
-                <img class="displayed-img"
+                <img class="slider"
                     src="https://assets.bonappetit.com/photos/5c2f8fe26558e92c8a622671/1:1/w_320%2Cc_limit/bolognese-1.jpg"
-                    alt="This pictures includes a pasta bowl" />
-
+                    alt="This image may contain Food Pasta Meal and Dish" />
             </div>
-            <div class="clickBtn">
-                <button class="forward">Forward</button>
-                <button class="backward">Backward</button>
-            </div>
+        </div>
 
+        <div class="clickBtn">
+            <button id="forwardBtn">Next</button>
+            <button id="backwardBtn">Back</button>
         </div>
 
 
 
+
+        
+
     </main>
+
 </body>
 
 </html>

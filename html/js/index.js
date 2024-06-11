@@ -1,28 +1,29 @@
-//grab elements and create a variable for the images
-const images = [...document.querySelectorAll(".displayed-img")];
-//initialize counter
+//grab elements
+const images = [...document.querySelectorAll(".slider")];
+console.log(images);
 let counter = 0;
 
-//set a function to loop through images and hide them and show only a specific one
+//set function to hide and display images
 function displaySlide(index) {
     images.forEach(item => {
-        //hide all images
         item.style.display = "none";
-    })
-    //display a specific image
+    });
     images[index].style.display = "block";
 }
 
-//set a function to move forward
-function moveForward() {
-    //increment the counter
+//function to move slide forward
+function moveSlide() {
     counter = (counter + 1) % images.length;
     displaySlide(counter);
 }
 
-//set a function to move backward
-function moveBackward() {
-    //decrement the counter
+//function to move slide back
+function moveSlideBack() {
     counter = (counter - 1 + images.length) % images.length;
     displaySlide(counter);
 }
+
+//add button
+document.getElementById("forwardBtn").addEventListener("click", moveSlide);
+
+document.getElementById("backwardBtn").addEventListener("click", moveSlideBack);
