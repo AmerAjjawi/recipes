@@ -15,6 +15,14 @@ function displaySlide(index) {
 
 //set a function to move forward
 function moveForward() {
+    //increment the counter
     counter = (counter + 1) % images.length;
+    displaySlide(counter);
+}
+
+//set a function to move backward
+function moveBackward() {
+    //decrement the counter
+    counter = (counter - 1 + images.length) % images.length;
     displaySlide(counter);
 }

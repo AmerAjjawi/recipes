@@ -104,23 +104,6 @@ img {
   */
 
   /*This is the css for the image gallaery*/
- .img-header{
+  h1 {
     text-align: center;
- }
-  .full-img {
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    justify-content: space-around;
   }
-
-   img {
-    width: 100%;
-    height: 100% !important;
-    object-fit: cover;}
-
-
-    /*Button*/
-
-    .dark {
-        margin-top: 1rem;
-    }
