@@ -107,3 +107,14 @@ img {
   h1 {
     text-align: center;
   }
+
+  .slider, .clickBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex: 0 2 auto;
+  }
+
+ 
