@@ -108,7 +108,7 @@ img {
     text-align: center;
   }
 
-  .slider, .clickBtn {
+  .slide-cover, .clickBtn {
     display: flex;
     flex-direction: row;
     justify-content: center;
